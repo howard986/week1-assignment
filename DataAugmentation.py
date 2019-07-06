@@ -51,7 +51,7 @@ class DataAugmentation():
         B, G, R = cv2.split(self.file)
         return B, G, R
     
-    # 随意调增颜色
+    # 随机调整颜色
     # upper_bound: 随机调整幅度的上界
     # lower_bound: 随机调整幅度的下界
     def random_light_color(self, lower_bound, upper_bound):
