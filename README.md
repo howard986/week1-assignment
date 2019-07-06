@@ -6,5 +6,5 @@
    data_aug = DataAugmentation()
    data_aug.read_file('timg.jpg') # 可支持中文路径
    
-   # 然后调用data_aug对象的成员函数即可
+   然后调用data_aug对象的成员函数即可
    ...
